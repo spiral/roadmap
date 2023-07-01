@@ -8,3 +8,6 @@ Long living processes provide a lot of benefits, such as:
 4. **Concurrency**: RoadRunner, for example, allows you to run PHP applications in a concurrent manner. This means you can handle multiple requests simultaneously without waiting for the previous one to finish, leading to better utilization of system resources and improved throughput. 
 5. **Better Integration with Other Services**: Long-living processes can be more easily integrated with services like message queues, websockets, etc., which require persistent connections. 
 6. **Cost Efficiency**: With less CPU and memory usage, the cost of hosting and server maintenance can be reduced.
+
+### Links and materials to read more:
+1. [Long living processes](https://spiral.dev/docs/start-server/current/en)
