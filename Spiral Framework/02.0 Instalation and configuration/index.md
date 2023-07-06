@@ -4,4 +4,5 @@ Spiral Framework can be installed both natively or using Docker. Basic stack con
 
 The installation process had been described in Spiral Framework documentation.
 
+### Links and materials to read more:
 1. [Installation documentation](https://spiral.dev/docs/start-installation/current/en)
