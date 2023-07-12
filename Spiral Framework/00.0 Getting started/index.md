@@ -4,5 +4,5 @@ Spiral Framework is object-oriented framework that follows PHP Standard Recommen
 
 ### Links and materials to read more:
 1. [PHP Standard Recommendations](https://www.php-fig.org/psr/)
-3. [Dependency injection](https://designpatternsphp.readthedocs.io/en/latest/Structural/DependencyInjection/README.html)
+2. [Dependency injection](https://designpatternsphp.readthedocs.io/en/latest/Structural/DependencyInjection/README.html)
 3. [Refactoring.guru](https://refactoring.guru/design-patterns/php)
