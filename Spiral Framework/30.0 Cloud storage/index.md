@@ -4,7 +4,7 @@ Spiral offers a comprehensive solution for file storage and distribution through
 
 To use the storage capabilities, you need to install the component and configure it. The installation process involves adding the `Spiral\Storage\Bootloader\StorageBootloader` to the list of bootloaders in your application.
 
-```php
+```
 // Installation
 protected const LOAD = [
     // ...
@@ -16,7 +16,7 @@ protected const LOAD = [
 After installation, you need to configure the storage settings. The storage configuration file is located at `app/config/storage.php` by default. In this file, you can define the storage buckets and their drivers.
 
 
-```php
+```
 // Configuration
 return [
     'buckets' => [

@@ -2,7 +2,7 @@
 
 For more realistic testing, you can mock your database. This involves pointing your target database to another driver, usually a runtime SQLite. This allows you to test your application code in a more realistic environment, but be aware that your tests might take longer to execute.
 
-```php
+```
 public function setUp()
 {
     $root = dirname(__DIR__) . '/';

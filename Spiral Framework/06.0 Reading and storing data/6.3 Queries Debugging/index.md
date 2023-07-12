@@ -2,7 +2,7 @@
 
 Debugging queries in Spiral Framework can be done using the `__toString` method of the `Select` class, which will return the SQL query as a string. This can be useful for understanding what SQL query is being executed when you run your query.
 
-```php
+```
 $query = $orm->getRepository(User::class)->select()->where('username', 'test');
 echo $query->__toString();
 ```

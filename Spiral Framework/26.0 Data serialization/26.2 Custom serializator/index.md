@@ -2,7 +2,7 @@
 
 You can create a custom serializer that implements the `SerializerInterface`. You need to implement 2 methods: the `serialize` method with the `$payload` parameter (and this method should return the serialized data) and the `unserialize` method, which in the parameters accepts serialized data `$payload` and optionally the name of the class or object `$type` into which the payload should be deserialized.
 
-```php
+```
 namespace App;
 
 use Spiral\Serializer\SerializerInterface;

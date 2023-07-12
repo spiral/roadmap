@@ -8,7 +8,7 @@ Spiral provides a scaffolder component that enables developers to quickly and ea
 
 The scaffolder component can be customized to fit your needs by replacing declaration generators and their options using the scaffolder configuration file. You can customize the class namespace, postfix, and declaration type for each available class declaration type.
 
-```php
+```
 // Example of using the PrototypeTrait in a class
 namespace App\Endpoint\Web;
 
@@ -33,7 +33,7 @@ Spiral comes with a development extension that speeds up the development of appl
 
 To use the prototyping abilities of the framework, add `Spiral\Prototype\Traits\PrototypeTrait` to any of your classes. Once it's added, your IDE will immediately suggest available classes and Cycle Repositories to you.
 
-```php
+```
 // Example of customizing the scaffolder configuration
 use Spiral\Scaffolder\Declaration;
 

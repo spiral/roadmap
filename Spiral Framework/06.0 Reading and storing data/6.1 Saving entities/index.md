@@ -2,7 +2,7 @@
 
 Saving entities in Spiral Framework involves creating an instance of your entity, setting its properties, and then using the `persist` and `run` methods of the `Transaction` class to save it to the database. This process is also known as persisting an entity.
 
-```php
+```
 $user = new User();
 $user->username = 'test';
 $user->password = 'test';

@@ -4,7 +4,7 @@ When creating an API, it's important to structure your responses in a way that's
 
 You can return data directly from your controller methods, and Spiral will automatically convert it to a JSON response. If you need more control over the response, you can use the `ResponseFactory` service to create a response with custom headers, status code, and body.
 
-```php
+```
 // Returning data
 use Spiral\Http\Response\ResponseFactory;
 

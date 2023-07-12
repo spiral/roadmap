@@ -6,7 +6,7 @@ To use the RBAC component, we must register available roles and create an associ
 
 Here is an example of how to set up permissions and check if the Actor has access to the specific permission:
 
-```php
+```
 namespace App\Bootloader;
 
 use Spiral\Boot\Bootloader\Bootloader;
@@ -28,7 +28,7 @@ class ActorBootloader extends Bootloader
 ```
 
 Accessing:
-```php
+```
 namespace App\Controller;
 
 use Spiral\Security\GuardInterface;

@@ -4,7 +4,7 @@ In Spiral, roles are used to manage user permissions. Each user is associated wi
 
 Here is an example of how to create a role and associate it with a permission:
 
-```php
+```
 namespace App\Bootloader;
 
 use Spiral\Boot\Bootloader\Bootloader;

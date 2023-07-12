@@ -6,7 +6,7 @@ The default queue configuration can be found in the `app/config/queue.php` file.
 
 Here is an example of how to set up the queue configuration:
 
-```php
+```
 protected const LOAD = [
     // ...
     \Spiral\Queue\Bootloader\QueueBootloader::class,

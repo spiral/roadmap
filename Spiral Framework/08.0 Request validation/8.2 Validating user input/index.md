@@ -10,7 +10,7 @@ There are three validator bridges available for use with Spiral validation compo
 
 Here is an example of how to validate data using the default validator:
 
-```php
+```
 use Spiral\Http\Request\InputManager;
 use Spiral\Validation\ValidatorInterface;
 

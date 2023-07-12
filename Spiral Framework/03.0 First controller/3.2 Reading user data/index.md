@@ -4,7 +4,7 @@ Reading user data in Spiral Framework involves retrieving data sent by the user 
 
 Here's a basic example of how you can read GET and POST data in Spiral Framework:
 
-```php
+```
 // Reading GET data
 $queryParams = $request->getQueryParams();
 $specificQueryParam = $request->getQueryParam('specificKey');

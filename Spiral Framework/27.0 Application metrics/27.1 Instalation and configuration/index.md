@@ -2,7 +2,7 @@
 
 To use application metrics in Spiral, you first need to install the `spiral/roadrunner-bridge` package. Then, you can add the `Spiral\RoadRunnerBridge\Bootloader\MetricsBootloader` to the list of bootloaders. The metrics service does not require configuration in the application, but you must activate the service in `.rr.yaml`.
 
-```php
+```
 // Installation
 // At first, you need to install the spiral/roadrunner-bridge package.
 // Once the package is installed, you can add the Spiral\RoadRunnerBridge\Bootloader\MetricsBootloader to the list of bootloaders:

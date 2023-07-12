@@ -6,7 +6,7 @@ For example, you can create an interceptor that logs slow database queries. You 
 
 Here is an example of how to use attributes in an interceptor:
 
-```php
+```
 namespace App\Integration\Database\Interceptor;
 
 use Psr\Log\LoggerInterface;

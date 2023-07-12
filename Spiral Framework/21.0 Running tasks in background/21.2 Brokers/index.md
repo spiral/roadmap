@@ -6,7 +6,7 @@ If the available queue driver does not meet your specific needs, you can create 
 
 Here is an example of how to use queue aliasing and create a custom queue driver:
 
-```php
+```
 return [
     'aliases' => [
         'mailQueue' => 'roadrunner',

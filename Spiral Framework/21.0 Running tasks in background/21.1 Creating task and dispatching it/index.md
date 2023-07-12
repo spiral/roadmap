@@ -6,7 +6,7 @@ Once you have a job handler, you can dispatch your job via `Spiral\Queue\QueueIn
 
 Here is an example of how to create a job handler and dispatch a job:
 
-```php
+```
 namespace App\Endpoint\Job;
 
 use Spiral\Queue\JobHandler;
