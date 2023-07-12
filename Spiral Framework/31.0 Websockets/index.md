@@ -8,7 +8,7 @@ The integration of Centrifugo with Spiral provides efficient management of real-
 
 To use websockets in your Spiral application, you need to install the `spiral/roadrunner-bridge` package and add the `Spiral\RoadRunnerBridge\Bootloader\CentrifugoBootloader` to the list of bootloaders in your application. //code
 
-```
+```php
 // Installation
 protected const LOAD = [
     // ...
@@ -19,7 +19,7 @@ protected const LOAD = [
 
 After installation, you need to configure the communication between RoadRunner and Centrifugo by modifying the `.rr.yaml` file.
 
-```
+```php
 # Configuration for RoadRunner and Centrifugo communication
 rpc:
   listen: tcp://0.0.0.0:6001
@@ -35,7 +35,7 @@ centrifuge:
 
 You also need to configure the Centrifugo server by creating a `config.json` file and specifying the communication settings between Centrifugo and RoadRunner.
 
-```
+```php
 # Configuration for RoadRunner and Centrifugo communication
 rpc:
   listen: tcp://0.0.0.0:6001
@@ -51,7 +51,7 @@ centrifuge:
 
 In your Spiral application, you will need to create a `centrifugo.php` file in the `app/config` directory. In this file, you can specify services that will handle incoming events from the Centrifugo server, as well as any interceptors that should be applied to the events.
 
-```
+```php
 // Spiral application configuration for Centrifugo
 use RoadRunner\Centrifugo\Request\RequestType;
 

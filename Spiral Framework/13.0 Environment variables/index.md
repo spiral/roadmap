@@ -6,7 +6,7 @@ Spiral integrates with Dotenv through the `Spiral\DotEnv\Bootloader\DotenvBootlo
 
 You can access environment variables using `Spiral\Boot\EnvironmentInterface` or via a short function `env()`.
 
-```
+```php
 // Accessing environment variables using Spiral\Boot\EnvironmentInterface
 use Spiral\Boot\EnvironmentInterface;
 
@@ -25,7 +25,7 @@ final class GithubClient
 
 
 Remember that the values in `.env` will be pre-processed, the following changes will take place:
-```
+```php
 // Accessing environment variables via a short function env()
 return [
     'access_token' => env('GITHUB_ACCESS_TOKEN'),

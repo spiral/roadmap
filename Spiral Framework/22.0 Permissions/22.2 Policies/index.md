@@ -6,7 +6,7 @@ You can create complex role-permission associations using policies. For example,
 
 Here is an example of how to create a policy:
 
-```
+```php
 namespace App\Bootloader;
 
 use Spiral\Boot\Bootloader\Bootloader;

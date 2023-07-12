@@ -8,7 +8,7 @@ Three serializers are available by default:
 
 You can inject the serializer from a container using the `SerializerInterface`. It will refer to the default serializer. You can also use the `SerializerManager` to get a specific serializer by a serializer string key from config.
 
-```
+```php
 // Configuration for the serializer component
 use Spiral\Core\Container\Autowire;
 use Spiral\Serializer\Serializer\JsonSerializer;

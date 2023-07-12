@@ -2,7 +2,7 @@
 
 Before you start testing your Spiral application, you need to set up a base test. This is an abstract class that configures the environment for each test case. It initializes the application and sets up necessary services. After each test case, the application is destroyed to ensure that each test runs in a clean environment.
 
-```
+```php
 abstract class BaseTest extends TestCase
 {
     /**

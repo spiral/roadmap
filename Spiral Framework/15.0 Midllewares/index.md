@@ -2,7 +2,7 @@
 
 Middlewares in Spiral Framework are based on the PSR-15 standard, which defines a common interface for processing HTTP server requests using middleware. Middleware is responsible for handling functionality that is related to the request and response, such as authentication, caching, or logging. It can modify the request and response before they are passed on to the router, but it cannot make decisions about which routes should be handled by the application.
 
-```
+```php
 // Creating a middleware
 namespace App\Endpoint\Web\Middleware;
 
@@ -24,7 +24,7 @@ class MyMiddleware implements MiddlewareInterface
 
 Spiral provides several ways to set middleware, allowing developers to choose the approach that best fits their needs. You can activate a global middleware that applies to all routes and requests, or you can configure middleware that's grouped and will only be applied to routes within the corresponding group. You can also apply middleware to a specific route.
 
-```
+```php
 // Adding a middleware to a route
 namespace App\Application\Bootloader;
 

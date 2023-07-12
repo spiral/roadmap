@@ -2,7 +2,7 @@
 
 Tagged (or labeled) metrics allow you to attach additional metadata to your metrics, which can be useful for filtering, grouping, and aggregating the data. This can increase granularity, improve organization, and simplify querying.
 
-```
+```php
 // Using tagged (also known as labeled) metrics allows you to attach additional metadata to your metrics, which can be useful for filtering, grouping, and aggregating the data.
 
 // Using the .rr.yaml file:

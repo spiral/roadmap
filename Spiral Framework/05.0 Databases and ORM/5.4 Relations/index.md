@@ -2,7 +2,7 @@
 
 Relations in Spiral Framework are managed through Cycle ORM. It allows you to define the relationships between your entities, such as one-to-one, one-to-many, and many-to-many.
 
-```
+```php
 namespace App\Entity;
 
 use Cycle\Annotated\Annotation\Entity;

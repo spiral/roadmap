@@ -4,7 +4,7 @@ Using REST APIs for communication between microservices has been a common approa
 
 To use gRPC in your Spiral application, you need to install the `spiral/roadrunner-bridge` package and add the `Spiral\RoadRunnerBridge\Bootloader\GRPCBootloader` to the list of bootloaders in your application.
 
-```
+```php
 // Installation
 protected const LOAD = [
     // ...
@@ -16,7 +16,7 @@ protected const LOAD = [
 
 After installation, you need to configure the communication between RoadRunner and gRPC by modifying the `.rr.yaml` file and creating a `grpc.php` file in the `app/config` directory. In this file, you can specify services that will handle incoming events from the gRPC server.
 
-```
+```php
 # Configuration for RoadRunner and gRPC communication
 server:
   command: "php app.php"
@@ -28,7 +28,7 @@ grpc:
     - "proto/calculator.proto"
 ```
 
-```
+```php
 // Spiral application configuration for gRPC
 return [
     /**

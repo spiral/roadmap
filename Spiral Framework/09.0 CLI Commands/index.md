@@ -10,7 +10,7 @@ Spiral offers the ability to define console commands using PHP attributes. This 
 
 Here's an example of defining a console command using attributes:
 
-```
+```php
 namespace App\Api\Cli\Command;
 
 use Spiral\Console\Attribute\Argument;

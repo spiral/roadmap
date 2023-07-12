@@ -6,13 +6,13 @@ The Spiral Framework's `spiral/cache` component is compliant with the PSR-16 sta
 
 Here is an example of how to use the `set` method, which persists data in the cache, uniquely referenced by a key with an optional expiration TTL time:
 
-```
+```php
 $data = $this->cache->get('key');
 ```
 
 And here is how to store an item in the cache:
 
-```
+```php
 $this->cache->set(
     key: 'key', 
     value: ['some' => 'data']

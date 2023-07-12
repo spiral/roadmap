@@ -6,7 +6,7 @@ Interceptors should implement the `Spiral\Core\CoreInterceptorInterface` interfa
 
 Here is an example of how to set up an interceptor:
 
-```
+```php
 namespace App\Integration\Database\Interceptor;
 
 use Spiral\Core\CoreInterceptorInterface;

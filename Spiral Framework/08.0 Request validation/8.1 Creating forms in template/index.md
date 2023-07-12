@@ -15,7 +15,7 @@ Here is an example of how to create a form using HTML:
 ```
 
 And here is how you can access the submitted data in your Spiral controller:
-```
+```php
 use Spiral\Http\Request\InputManager;
 
 class UserController

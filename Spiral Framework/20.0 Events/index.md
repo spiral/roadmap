@@ -6,7 +6,7 @@ An event is a message produced by an Emitter. It may be any arbitrary PHP object
 
 Here is an example of how to create an event:
 
-```
+```php
 // Event creation
 namespace App\Event;
 
@@ -23,7 +23,7 @@ final class UserWasCreated
 
 And here is how to dispatch an event:
 
-```
+```php
 // Dispatching an event
 namespace App\Service;
 
@@ -50,7 +50,7 @@ final class UserService
 
 Finally, this is how you can create a listener:
 
-```
+```php
 // Listener creation
 namespace App\Listener;
 
