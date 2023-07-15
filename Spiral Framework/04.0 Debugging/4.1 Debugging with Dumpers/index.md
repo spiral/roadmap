@@ -7,5 +7,5 @@ Spiral Framework provides its own built-in dumper. However, you can also use Sym
 Remember, the output of these dumpers will be sent to the output (browser, console, etc.) directly.
 
 ### Links and materials to read more:
-1. [Debugging in Spiral Framework](https://spiral.dev/docs/basics-debugging/current/en)
+1. [Debugging in Spiral Framework](https://spiral.dev/docs/basics-debug/current/en)
 2. [Symfony VarDumper](https://symfony.com/doc/current/components/var_dumper.html)

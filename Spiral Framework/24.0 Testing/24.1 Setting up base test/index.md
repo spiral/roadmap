@@ -44,4 +44,4 @@ abstract class BaseTest extends TestCase
 ```
 
 ### Links and materials to read more:
-1. [Testing Application](https://spiral.dev/docs/application-testing/current/en)
+1. [Testing Application](https://spiral.dev/docs/testing-start/current/en)

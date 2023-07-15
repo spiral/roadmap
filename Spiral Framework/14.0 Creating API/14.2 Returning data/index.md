@@ -17,4 +17,4 @@ public function index(ResponseFactory $response)
 ```
 
 ### Links and materials to read more:
-1. [Responses](https://spiral.dev/docs/http-responses/current/en)
+1. [Responses](https://spiral.dev/docs/http-request-response/current/en)

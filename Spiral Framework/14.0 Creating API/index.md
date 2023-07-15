@@ -4,4 +4,4 @@ Creating an API with Spiral Framework involves handling input validation and ret
 
 ### Links and materials to read more:
 1. [Request Validation](https://spiral.dev/docs/validation-spiral/current/en)
-2. [Responses](https://spiral.dev/docs/http-responses/current/en)
+2. [Responses](https://spiral.dev/docs/http-request-response/current/en)

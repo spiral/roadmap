@@ -6,5 +6,6 @@ In the Spiral Framework, Singletons are implemented via an interface or in a boo
 
 This approach proves beneficial when there's a need to preserve data or maintain a connection between requests within the object properties.
 
+### Links and materials to read more:
 1. [Singletons](https://refactoring.guru/design-patterns/singleton)
 2. [Bootloaders](https://spiral.dev/docs/framework-bootloaders/current/en)

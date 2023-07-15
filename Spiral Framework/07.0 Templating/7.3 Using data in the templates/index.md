@@ -8,4 +8,4 @@ return $views->get('home')
 ```
 
 ### Links and materials to read more:
-1. [Spiral Views](https://spiral.dev/docs/views-views/current/en)
+1. [Spiral Views](https://spiral.dev/docs/views-configuration/current/en)

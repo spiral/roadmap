@@ -14,4 +14,4 @@ Layouts and blocks provide a way to define a common structure for your views. A 
 ```
 
 ### Links and materials to read more:
-1. [Spiral Views](https://spiral.dev/docs/views-views/current/en)
+1. [Spiral Views](https://spiral.dev/docs/views-configuration/current/en)

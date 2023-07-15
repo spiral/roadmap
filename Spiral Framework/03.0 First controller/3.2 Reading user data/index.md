@@ -17,7 +17,7 @@ $specificPostParam = $request->getParsedBodyParam('specificKey');
 In these examples, `$request` is an instance of `Spiral\Http\Request\InputManager` which is automatically injected into your controller methods.
 
 ### Links and materials to read more:
-1. [HTTP Basics in Spiral Framework](https://spiral.dev/docs/http-basic/current/en)
+1. [HTTP — Getting started](https://spiral.dev/docs/http-configuration/current/en)
 2. [Request and Response in Spiral Framework](https://spiral.dev/docs/http-requests/current/en)
 3. [Routing in Spiral Framework](https://spiral.dev/docs/http-routing/current/en)
 

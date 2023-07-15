@@ -49,4 +49,4 @@ public function index(SessionInterface $session): void
 
 ### Links and materials to read more:
 1. [Sessions](https://spiral.dev/docs/basics-session/current/en)
-2[Cookies](https://spiral.dev/docs/http-cookies/1.0/en)
+2. [Cookies](https://spiral.dev/docs/http-cookies/current/en)
