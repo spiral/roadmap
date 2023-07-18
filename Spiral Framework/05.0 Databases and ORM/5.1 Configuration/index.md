@@ -1,4 +1,4 @@
-# 05.1 Configuration
+## 05.1 Configuration
 
 Configuring Cycle ORM involves setting up your database connections and mapping your entities to the database schema. This is usually done in the `.env` file for your application.
 

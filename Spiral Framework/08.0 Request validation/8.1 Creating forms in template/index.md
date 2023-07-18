@@ -1,6 +1,6 @@
 08.1 Creating forms in template
 
-# Creating forms in template
+## Creating forms in template
 
 Forms in Spiral Framework are mostly regular HTML forms that have the AJAX submission functionality on top. The form can be created using standard HTML form elements. Once the form is submitted, you can access the submitted data in your Spiral controller using the `request` object.
 

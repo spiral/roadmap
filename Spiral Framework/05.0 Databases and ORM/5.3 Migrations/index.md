@@ -1,4 +1,4 @@
-# 05.3 Migrations
+## 05.3 Migrations
 
 Migrations in Spiral Framework are a way of applying version control to your database. They allow you to manage your database schema and data changes over time.
 

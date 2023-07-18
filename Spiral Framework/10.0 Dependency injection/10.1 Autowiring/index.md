@@ -1,6 +1,6 @@
 10.1 Autowiring
 
-# Autowiring
+## Autowiring
 
 Autowiring is a feature of the Spiral container that allows automatic resolution of class dependencies. This means that the container can automatically create and inject dependencies for a class without the need for explicit configuration.
 

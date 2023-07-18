@@ -1,4 +1,4 @@
-# Singletons
+## Singletons
 
 Singletons are a design pattern that restricts a class to a single instance, providing a global point of access to it. This pattern is useful when exactly one object is needed to coordinate actions across the system.
 

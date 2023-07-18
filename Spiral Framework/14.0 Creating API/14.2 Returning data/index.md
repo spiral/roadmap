@@ -1,4 +1,4 @@
-# Returning data
+## Returning data
 
 When creating an API, it's important to structure your responses in a way that's easy for clients to understand and use. Spiral Framework provides several ways to return data from your API endpoints.
 

@@ -1,4 +1,4 @@
-# Error Handling
+## Error Handling
 
 Error handling in Spiral Framework is managed through a set of components that intercept and log critical errors and user-level exceptions. The framework includes a default error handling middleware `Spiral\Http\Middleware\ErrorHandlerMiddleware` which is used to intercept and log these errors. This middleware can be enabled in the global middleware list.
 

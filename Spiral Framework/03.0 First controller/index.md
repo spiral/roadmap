@@ -1,4 +1,4 @@
-# First controller
+## First controller
 
 Controller is part of MVC architecture pattern responsible for managing the flow of data and interactions between the model and the view components.
 

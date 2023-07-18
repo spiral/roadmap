@@ -1,4 +1,4 @@
-# Using the Serializer
+## Using the Serializer
 
 Three serializers are available by default:
 

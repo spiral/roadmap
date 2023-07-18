@@ -1,4 +1,4 @@
-# Policies
+## Policies
 
 In addition to roles, Spiral also provides a way to manage permissions using policies. Policies are rules that determine what actions a user can perform on a specific resource. They provide an additional layer of rules to control the privilege/permission context.
 

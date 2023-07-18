@@ -1,4 +1,4 @@
-# 05.5 Schema debugging
+## 05.5 Schema debugging
 
 Schema debugging in Spiral Framework involves inspecting your database schema to ensure it matches your entities' configurations. This can be done using various tools and techniques.
 

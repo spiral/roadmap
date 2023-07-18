@@ -1,4 +1,4 @@
-# Reading and Storing Data
+## Reading and Storing Data
 
 Working with data is a fundamental part of any application. In Spiral Framework, this involves interacting with the database and ORM (Object-Relational Mapping) to read and store data.
 

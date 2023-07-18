@@ -1,4 +1,4 @@
-## Why to use cache
+### Why to use cache
 
 Caching is a technique used to store frequently accessed data in a faster storage medium, such as memory, instead of a slower source like a database. This can significantly improve the performance of an application by reducing the need to recalculate or fetch the data from the slower source every time it is needed.
 

@@ -1,4 +1,4 @@
-# Request validation
+## Request validation
 
 Request validation is an important aspect of building secure and robust web applications. Spiral Framework provides a powerful validation library that allows you to validate incoming HTTP requests in a simple and flexible way.
 

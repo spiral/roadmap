@@ -1,4 +1,4 @@
-# Running tasks in background
+## Running tasks in background
 
 Spiral provides support for background PHP processing and a queue system. This feature is available out of the box and allows you to work with a variety of message brokers. To use this feature, you need to add `Spiral\Queue\Bootloader\QueueBootloader` to your application kernel.
 

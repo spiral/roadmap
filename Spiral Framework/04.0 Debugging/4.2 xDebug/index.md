@@ -1,4 +1,4 @@
-# Debugging with Xdebug
+## Debugging with Xdebug
 
 Xdebug is a powerful debugging and profiling tool for PHP. It provides a range of features like stack traces, breakpoints, and profiling information. Xdebug can be a valuable tool when debugging long-living processes in Spiral Framework.
 

@@ -1,8 +1,8 @@
-# Cookies and sessions
+## Cookies and sessions
 
 Spiral Framework provides robust support for managing cookies and sessions, which are essential for maintaining state in web applications.
 
-## Cookies
+### Cookies
 
 Cookies in Spiral are managed by the `CookieManager` middleware, which provides a `CookieQueue` class for managing cookies within a specific scope. This middleware is automatically mounted in the HTTP config and runs on every request, allowing you to access the cookie queue inside your controllers using either dependency injection or the shortcut `cookies`.
 
@@ -18,7 +18,7 @@ public function indexAction(CookieQueue $cookies)
 }
 ```
 
-## Sessions
+### Sessions
 
 Spiral provides a `SessionInterface` for managing user sessions. You can access the user session using this interface. The session will be automatically started on first data access and committed when the request leaves `SessionMiddleware`.
 

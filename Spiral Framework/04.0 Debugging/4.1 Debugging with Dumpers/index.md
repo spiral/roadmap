@@ -1,4 +1,4 @@
-# Debugging with Dumpers
+## Debugging with Dumpers
 
 Debugging is a crucial part of the development process. In Spiral Framework, you can use dumpers to inspect variables and objects during the execution of your code. This can be very useful for understanding the state of your application at any given point.
 

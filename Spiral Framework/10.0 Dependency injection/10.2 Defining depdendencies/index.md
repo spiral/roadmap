@@ -1,4 +1,4 @@
-# Defining dependencies
+## Defining dependencies
 
 The Spiral container allows you to configure it by creating bindings between interfaces or aliases to specific implementations. You can use Bootloaders to define these bindings. There are two ways to configure the container, either by using the `Spiral\Core\BinderInterface` or the `Spiral\Core\Container`.
 

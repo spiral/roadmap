@@ -1,4 +1,4 @@
-# Interceptors
+## Interceptors
 
 One of the key features of Spiral is its support for interceptors, which can be used to add functionality to the application without modifying the core code of the application. This can help to keep your codebase more modular and maintainable. Interceptors work similarly to middleware in HTTP requests, in that they allow developers to add functionality to the application at various points in the processing flow. However, unlike middleware which is typically specific to HTTP requests, interceptors can be used to add functionality to a wide range of components.
 

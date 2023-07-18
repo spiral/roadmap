@@ -1,4 +1,4 @@
-# Validating user input
+## Validating user input
 
 The validation component of Spiral allows you to validate data that is submitted by a user or received from an external source. The component does not contain any validator implementation out of the box. Instead, it provides a set of interfaces and abstract classes that define the expected behavior of a validator.
 

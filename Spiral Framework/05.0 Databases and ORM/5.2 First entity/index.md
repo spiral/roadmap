@@ -1,4 +1,4 @@
-# First entity
+## First entity
 
 Entity in Spiral Framework is an object that represents data and its relations to different entities. Through the power of CycleORM it allows to map object structure and configuration into database table.
 

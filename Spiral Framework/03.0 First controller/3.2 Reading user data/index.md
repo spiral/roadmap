@@ -1,4 +1,4 @@
-# Reading user data
+## Reading user data
 
 Reading user data in Spiral Framework involves retrieving data sent by the user to the server via HTTP requests. This data can be sent through the URL (GET), form submissions (POST), or even through cookies and headers.
 

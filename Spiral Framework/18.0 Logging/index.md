@@ -1,4 +1,4 @@
-# Logging
+## Logging
 Logging is an essential part of any application. It helps in debugging issues and keeping track of application activities. Spiral Framework uses Monolog, a popular logging library for PHP. Monolog allows for a variety of powerful log handling and storage options.
 
 In Spiral, you can configure logging channels that handle different types of log messages. Each channel can have its own set of handlers and processors. Handlers are responsible for writing the log entries to their respective targets, such as files, databases, or external services. Processors modify the log entries before they are written, for example, by adding additional information.

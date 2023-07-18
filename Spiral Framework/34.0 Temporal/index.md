@@ -1,4 +1,4 @@
-# Temporal
+## Temporal
 
 Temporal is an open-source workflow engine that manages and executes reliable, durable, and fault-tolerant workflows in a distributed manner. The only way to use it in PHP is with RoadRunner, which makes it super easy to integrate your PHP app with Temporal.
 

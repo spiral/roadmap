@@ -1,4 +1,4 @@
-# When to use them
+## When to use them
 
 Interceptors are a convenient way to intercept and modify the behavior of certain parts of the application, making it more functional and efficient, while keeping the domain-specific logic clean and maintainable. Here are some benefits of using interceptors:
 

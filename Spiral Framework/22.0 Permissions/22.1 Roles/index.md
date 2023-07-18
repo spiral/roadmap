@@ -1,4 +1,4 @@
-# Roles
+## Roles
 
 In Spiral, roles are used to manage user permissions. Each user is associated with one or more roles, and each role is associated with one or more permissions. To use the RBAC component, you must register available roles and create an association between the role and the permission. You can use the `Spiral\Security\PermissionsInterface` for this purpose. Once the roles are created, you can associate them with permissions using the `associate` method.
 

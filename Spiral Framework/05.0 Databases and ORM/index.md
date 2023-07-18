@@ -1,4 +1,4 @@
-# Database and ORM
+## Database and ORM
 
 The Spiral Framework provides a powerful and flexible Object-Relational Mapping (ORM) tool for PHP that allows developers to interact with databases in an object-oriented way. It supports a variety of popular relational databases such as MySQL, MariaDB, PostgresSQL, SQLServer, and SQLite.
 

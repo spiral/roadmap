@@ -1,4 +1,4 @@
-# Environment variables
+## Environment variables
 
 Environment variables are a great way to separate the configuration of your application from the code itself. This makes it easy to store sensitive information like database credentials, API keys, and other configs that you don't want to hardcode into your application.
 

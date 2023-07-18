@@ -1,4 +1,4 @@
-# Testing HTTP Methods
+## Testing HTTP Methods
 
 Spiral provides a `HttpTest` class that allows you to emulate user requests, cookies, and sessions. This is useful for testing how your application responds to different HTTP methods like GET, POST, DELETE, and PUT.
 

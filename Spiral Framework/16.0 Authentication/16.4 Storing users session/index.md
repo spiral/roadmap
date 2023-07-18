@@ -1,4 +1,4 @@
-## Storing users session
+### Storing users session
 
 Storing user sessions in Spiral Framework is managed through the `SessionInterface`. This interface provides methods to control the session lifecycle, including resuming, committing, aborting, getting the session ID, destroying, and regenerating the ID of a session.
 

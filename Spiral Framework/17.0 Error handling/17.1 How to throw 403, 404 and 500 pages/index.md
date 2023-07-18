@@ -1,4 +1,4 @@
-## How to throw and handle 403, 404 and 500 pages
+### How to throw and handle 403, 404 and 500 pages
 
 In Spiral Framework, you can throw HTTP level error pages from your controllers and middleware using specific exceptions. Here are the exceptions for 403, 404, and 500 HTTP status codes:
 

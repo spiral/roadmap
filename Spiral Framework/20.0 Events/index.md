@@ -1,4 +1,4 @@
-# Events
+## Events
 
 Events in Spiral Framework are a way for different parts of your application to communicate with each other. This is done by dispatching events and listening to them. The framework provides tools to make this process easy and efficient. It also provides an easy way to integrate PSR-14 compatible EventDispatcher.
 

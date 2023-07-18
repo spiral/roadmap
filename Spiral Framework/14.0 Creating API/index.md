@@ -1,4 +1,4 @@
-# Creating API
+## Creating API
 
 Creating an API with Spiral Framework involves handling input validation and returning data in a structured format. Spiral provides tools and features that make these tasks easier and more efficient.
 

@@ -1,4 +1,4 @@
-# Database configuration
+## Database configuration
 
 Part of Spiral Environment is Cycle ORM, powerful library that provides abstraction layer for database. It has drivers for most popular databases such as MySQL, PostgreSQL and much more.
 

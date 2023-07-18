@@ -1,4 +1,4 @@
-# Cloud Storage
+## Cloud Storage
 
 Spiral offers a comprehensive solution for file storage and distribution through its `spiral/storage` and `spiral/distribution` components. The `spiral/storage` component provides powerful storage abstraction utilizing the capabilities of the Flysystem PHP package, offering convenient drivers for working with both local file systems and Amazon S3. The `spiral/distribution` component, which is integrated with the `spiral/storage` component, is responsible for generating public HTTP links for resources stored through the storage component.
 

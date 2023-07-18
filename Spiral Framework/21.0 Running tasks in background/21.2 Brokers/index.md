@@ -1,4 +1,4 @@
-## Brokers
+### Brokers
 
 Queue aliasing is a feature that allows your application and modules to access the queue system in a variety of ways, using separate connections that are related to a single physical queue. To obtain a queue instance by its name or alias, you can use the `getConnection` method of the `Spiral\Queue\QueueConnectionProviderInterface`.
 

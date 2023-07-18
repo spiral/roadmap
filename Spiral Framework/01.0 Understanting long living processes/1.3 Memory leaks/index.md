@@ -1,4 +1,4 @@
-# Memory Leaks
+## Memory Leaks
 
 In the context of long-living processes, memory management becomes a crucial aspect. Since the application stays in memory for a long time, even a small memory leak might lead to process restart. RoadRunner, the application server used by Spiral, will monitor memory consumption and perform a soft reset, but it is best to avoid memory leaks in your application source code.
 

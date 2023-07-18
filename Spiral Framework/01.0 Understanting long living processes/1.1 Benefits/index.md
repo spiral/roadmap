@@ -1,4 +1,4 @@
-# Benefits
+## Benefits
 
 Long living processes provide a lot of benefits, such as:
 

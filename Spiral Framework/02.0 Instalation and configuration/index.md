@@ -1,4 +1,4 @@
-# Installation and configuration
+## Installation and configuration
 
 Spiral Framework can be installed both natively or using Docker. Basic stack consists of PHP 8.1+, Roadrunner, database (supported by CycleORM). It can be enchanted by queue systems (e.g. RabbitMQ) or Temporal. 
 

@@ -1,4 +1,4 @@
-# Permissions
+## Permissions
 
 The Spiral Framework includes the component `spiral/security`, which provides the ability to authorize user/actor access to specific resources or actions based on the list of associated privileges. The components implement "Flat RBAC" patterns described in NIST RBAC research. The implementation includes multiple additions such as an additional layer of rules to control the privilege/permission context, the ability to assign a role to multiple privileges using the wildcard pattern, and the ability to overwrite a role-to-permission assignment using the higher priority rule.
 

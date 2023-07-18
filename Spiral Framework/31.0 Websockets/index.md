@@ -1,4 +1,4 @@
-# Websockets
+## Websockets
 
 Websockets are a protocol that provides full-duplex communication channels over a single TCP connection. They are designed to be implemented in web browsers and web servers, but can be used by any client or server application. Websockets are an important part of the real-time web, enabling the development of interactive web applications with real-time, two-way communication.
 
@@ -20,7 +20,7 @@ protected const LOAD = [
 After installation, you need to configure the communication between RoadRunner and Centrifugo by modifying the `.rr.yaml` file.
 
 ```php
-# Configuration for RoadRunner and Centrifugo communication
+// Configuration for RoadRunner and Centrifugo communication
 rpc:
   listen: tcp://0.0.0.0:6001
 
@@ -34,20 +34,6 @@ centrifuge:
 ```
 
 You also need to configure the Centrifugo server by creating a `config.json` file and specifying the communication settings between Centrifugo and RoadRunner.
-
-```php
-# Configuration for RoadRunner and Centrifugo communication
-rpc:
-  listen: tcp://0.0.0.0:6001
-
-server:
-  command: "php app.php"
-  relay: pipes
-
-centrifuge:
-  proxy_address: "tcp://0.0.0.0:10001"
-  grpc_api_address: "centrifugo:10000"
-```
 
 In your Spiral application, you will need to create a `centrifugo.php` file in the `app/config` directory. In this file, you can specify services that will handle incoming events from the Centrifugo server, as well as any interceptors that should be applied to the events.
 

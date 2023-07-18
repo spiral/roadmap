@@ -1,4 +1,4 @@
-# 06.2 Repositories and queries
+## 06.2 Repositories and queries
 
 Repositories in Spiral Framework provide a way to encapsulate database queries related to a specific entity. You can use the `select` method of the `Repository` class to create queries. This method returns a `Select` object, which you can use to add conditions to your query and fetch the results.
 

@@ -1,8 +1,8 @@
-# Scaffolding and prototyping
+## Scaffolding and prototyping
 
 Spiral Framework provides powerful tools for scaffolding and prototyping, which can significantly speed up the development process. These tools allow developers to quickly generate application code for various classes using a set of console commands.
 
-## Scaffolding
+### Scaffolding
 
 Spiral provides a scaffolder component that enables developers to quickly and easily generate application code for various classes, using a set of console commands. These include application bootloaders, console commands, application configs, HTTP controllers, middleware, request filters, and queue job handlers.
 
@@ -27,7 +27,7 @@ class HomeController
 }
 ```
 
-## Prototyping
+### Prototyping
 
 Spiral comes with a development extension that speeds up the development of application services, controllers, middleware, and other classes via AST modification. This extension includes IDE-friendly tooltips for most common framework components and Cycle Repositories.
 

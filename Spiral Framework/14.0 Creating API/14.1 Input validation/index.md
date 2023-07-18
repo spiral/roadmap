@@ -1,4 +1,4 @@
-## Input validation
+### Input validation
 
 Input validation is a crucial part of any API. It ensures that the data your API receives is in the correct format and meets your application's requirements. Spiral Framework provides a powerful validation library that allows you to validate incoming HTTP requests in a simple and flexible way.
 

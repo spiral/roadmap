@@ -1,4 +1,4 @@
-# Ways of communication between microservices
+## Ways of communication between microservices
 
 When it comes to communication between microservices, there are several protocols that you can use, each with its own pros and cons.
 

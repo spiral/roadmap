@@ -1,4 +1,4 @@
-# gRPC
+## gRPC
 
 Using REST APIs for communication between microservices has been a common approach for many years. However, REST APIs have some limitations and challenges that can impact the performance, scalability, and reliability of your system. Switching from REST APIs to gRPC can help address these problems. The gRPC protocol provides an extremely efficient way of cross-service communication for distributed applications. The public toolkit includes instruments to generate client and server code-bases for many languages allowing developers to use the most optimal language for their task.
 
@@ -17,12 +17,12 @@ protected const LOAD = [
 After installation, you need to configure the communication between RoadRunner and gRPC by modifying the `.rr.yaml` file and creating a `grpc.php` file in the `app/config` directory. In this file, you can specify services that will handle incoming events from the gRPC server.
 
 ```php
-# Configuration for RoadRunner and gRPC communication
+// Configuration for RoadRunner and gRPC communication
 server:
   command: "php app.php"
 
 grpc:
-  # GRPC address to listen
+  // GRPC address to listen
   listen: "tcp://0.0.0.0:9001"
   proto:
     - "proto/calculator.proto"

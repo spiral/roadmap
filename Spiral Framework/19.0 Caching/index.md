@@ -1,4 +1,4 @@
-# Caching
+## Caching
 
 Caching is a technique that can significantly improve the performance of an application by storing frequently accessed data in a faster storage medium, such as memory. This reduces the need to recalculate or fetch the data from a slower source, such as a database. By implementing a caching layer, the application can quickly retrieve the data from the cache instead of recalculating it or fetching it from the slower source, which can improve the overall response time and reduce the load on the slower source.
 
