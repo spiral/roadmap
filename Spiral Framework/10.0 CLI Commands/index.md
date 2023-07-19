@@ -1,5 +1,3 @@
-09.0 CLI Commands
-
 ## CLI Commands
 
 Command Line Interface (CLI) commands are a powerful tool in Spiral Framework. They empower you to automate tasks, perform maintenance, and much more. You can add new console commands to your application or register plugin commands using bootloaders. The component is configured by default to automatically discover commands located in the `app/src` directory.

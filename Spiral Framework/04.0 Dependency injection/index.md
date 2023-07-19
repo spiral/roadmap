@@ -1,5 +1,3 @@
-10.0 Dependency Injection
-
 ## Dependency Injection
 
 Dependency Injection is a design pattern that allows an object to receive other objects it depends on. Spiral includes a set of tools that makes it easier to manage dependencies and create objects in your code. One of the main tools is the container, which helps you handle class dependencies and automatically "injects" them into the class. This means that instead of creating objects and setting up dependencies manually, the container takes care of it for you.

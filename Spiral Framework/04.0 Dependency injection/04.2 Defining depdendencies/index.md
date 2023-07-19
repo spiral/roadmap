@@ -6,5 +6,9 @@ To bind an interface to a concrete implementation, you can use the `BinderInterf
 
 Lastly, you can use closures to configure your class automatically by passing a closure to the `bind` or `bindSingleton` method.
 
+```php
+$container->bind(SomeInterface::class, SomeClass::class); 
+```
+
 ### Links and materials to read more:
 1. [Container and DI](https://spiral.dev/docs/framework-container/current)
