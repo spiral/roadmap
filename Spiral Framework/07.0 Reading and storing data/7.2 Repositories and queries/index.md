@@ -8,6 +8,25 @@ $users = $orm->getRepository(User::class)->select()->where('username', 'test')->
 
 In the following example, we use the `select` method to create a query that fetches all `User` entities where the `username` is 'test'.
 
+Repositories can be injected using a dependency injection container directly into your services or controller methods:
+
+```php
+final class UserController
+{
+    public function __construct(
+        private readonly UserRepository $userRepository
+    ) {
+    }
+
+    public function show(string $uuid): string
+    {
+        $user = $this->userRepository->findByPK($uuid);
+        
+        // ...
+    }
+}
+```
+
 ### Links and materials to read more:
 1. [Cycle ORM Docs](https://cycle-orm.dev/docs)
 2. [Database and ORM](https://spiral.dev/docs/basics-orm/current/en)

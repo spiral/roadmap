@@ -6,21 +6,15 @@ Relations in Spiral Framework are managed through Cycle ORM. It allows you to de
 namespace App\Entity;
 
 use Cycle\Annotated\Annotation\Entity;
-use Cycle\Annotated\Annotation\Column;
 use Cycle\Annotated\Annotation\Relation\BelongsTo;
 
-/**
- * @Entity()
- */
+#[Entity]
 class Post
 {
     // ...
 
-    /**
-     * @BelongsTo(target="User", nullable=false)
-     * @var User
-     */
-    public $user;
+    #[BelongsTo(target: User::class, nullable: false)]
+    public User $user;
 }
 ```
 

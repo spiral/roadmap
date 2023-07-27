@@ -2,11 +2,10 @@
 
 Schema debugging in Spiral Framework involves inspecting your database schema to ensure it matches your entities' configurations. This can be done using various tools and techniques.
 
-```php
-$schema = $orm->getSchema();
-$table = $schema->define('users');
+Render available Cycle ORM schemas via console command:
 
-var_dump($table->getColumns());
+```bash
+php app.php cycle:render
 ```
 
 ### Links and materials to read more:
