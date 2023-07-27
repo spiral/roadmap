@@ -1,20 +1,47 @@
 ### Input validation
 
-Input validation is a crucial part of any API. It ensures that the data your API receives is in the correct format and meets your application's requirements. Spiral Framework provides a powerful validation library that allows you to validate incoming HTTP requests in a simple and flexible way.
+Input validation is a crucial part of any API. It ensures that the data your API receives is in the correct format 
+and meets your application's requirements. Spiral Framework provides a powerful validation library and request filters 
+that allow you to validate incoming HTTP requests in a simple and flexible way.
 
 ```php
-// Input validation
-use Spiral\Validation\ValidationInterface;
+use Spiral\Filters\Model\Filter;
+use Spiral\Filters\Model\FilterDefinitionInterface;
+use Spiral\Filters\Model\HasFilterDefinition;
+use Spiral\Validator\FilterDefinition;
+use Spiral\Filters\Attribute\Input\Post;
 
-public function create(ValidationInterface $validation)
+final class CreateUser extends Filter implements HasFilterDefinition
 {
-    $validation->rule('name', 'notEmpty')->rule('email', 'email');
+    #[Post(key: 'email')]
+    public string $email;
 
-    if (!$validation->isValid()) {
-        return $validation->getErrors();
+    #[Post(key: 'password')]
+    public string $password;
+
+    public function filterDefinition(): FilterDefinitionInterface
+    {
+        return new FilterDefinition([
+            'email' => [['required']],
+            'password' => [['required']],
+        ]);
     }
+}
+```
 
-    // Continue processing...
+This filter can be requested in a API controller method and will be automatically validated before being passed to the method.
+
+```php
+final class UserController
+{
+    public function create(CreateUser $request)
+    {
+        // $request already validated at this point
+        $email = $request->email;
+        $password = $request->password;
+        
+        // ...
+    }
 }
 ```
 
